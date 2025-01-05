@@ -13,3 +13,5 @@ const vehiculesSchema = mongoose.Schema({
 const model= mongoose.model("jp_mongoose", vehiculesSchema);
 
  module.exports = model;
+
+ 
