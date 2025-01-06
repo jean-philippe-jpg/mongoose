@@ -1,16 +1,13 @@
 const mongoose = require('mongoose');
 
-const vehiculesSchema = mongoose.Schema({
+const animalSchema = mongoose.Schema({
 
-    marque: String,
-    modele: String,
-    annee: Number,
-    couleur: String,
-    prix: Number
-
+    name: String,
+    nbVue: Number
+    
 });
 
-const model= mongoose.model("jp_mongoose", vehiculesSchema);
+const model= mongoose.model("vueanimals", animalSchema);
 
  module.exports = model;
 
